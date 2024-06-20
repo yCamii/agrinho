@@ -34,13 +34,13 @@ header {
     gap: 40px;
 }
 
-navintem a {
+navitem a {
     text-decoration: none;
     color: #1d1d1dad;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-.navintem a:hover {
-    color: #ffe100;
+.navitem a:hover {
+    color: #e9a209
 }
