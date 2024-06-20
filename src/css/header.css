@@ -34,7 +34,7 @@ header {
     gap: 40px;
 }
 
-navitem a {
+.navitem a {
     text-decoration: none;
     color: #1d1d1dad;
     font-size: 1.2rem;
