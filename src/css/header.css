@@ -18,7 +18,7 @@ header {
 .navbar {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -48,4 +48,27 @@ header {
 .navitem.ativo {
     color: #1d1d1d;
     border-bottom: 3px solid #ffe100;
+}
+
+.btn_celular {
+    display: none;
+
+}
+
+.navcelular {
+    display: none;
+}
+
+@medi (max-width: 768px) {
+
+.navilista, .navbar .btn-pedido
+
+
+
+
+
+
+
+
+
 }
