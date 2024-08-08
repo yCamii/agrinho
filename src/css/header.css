@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-     font-family: "Poppins", sans-serif;
-     margin: 0%;
-    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     background-color: #fff9ea;
 }
-
 header {
     width: 100%;
     padding: 28px 8%;
 }
+
 .navbar {
     width: 100%;
     display: flex;
@@ -22,7 +22,7 @@ header {
     align-items: center;
 }
 
-#navlogo{
+#navlogo {
     font-size: 1.5rem;
     font-weight: 600;
     color: #e9a209;
@@ -32,6 +32,7 @@ header {
     display: flex;
     list-style: none;
     gap: 40px;
+
 }
 
 .navitem a {
@@ -39,10 +40,11 @@ header {
     color: #1d1d1dad;
     font-size: 1.2rem;
     font-weight: 600;
+
 }
 
 .navitem a:hover {
-    color: #e9a209
+    color: #ffe100;
 }
 
 .navitem.ativo {
@@ -50,9 +52,8 @@ header {
     border-bottom: 3px solid #ffe100;
 }
 
-.btn_celular {
+.btn-celular {
     display: none;
-
 }
 
 .navcelular {
@@ -60,48 +61,35 @@ header {
 }
 
 @media (max-width: 768px) {
+    .navlista, .navbar .btn-pedido {
+        display: none;
+    }
 
-.navilista, .navbar .btn-pedido {
-    display: none;
+    .btn-celular {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        color: #e9a209;
+        cursor: pointer;
+    }
 }
-
-.btn-celular {
-    display: block;
-    border: none;
-    background-color: transparent;
-    font-size: 1.5rem;
-    color: #e9a209;
-    cursor: pointer;
-
-
-}
-
-}
-
 
 .navcelular.ativo {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
-.celularnavlista  {
-display: flex;
-flex-direction: column;
-gap: 12px;
-margin: 12px 0;
+.celularnavlista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 0;
+
 }
 
 .celularnavlista .navitem {
     list-style: none;
     align-items: center;
 }
-
-
-
-
-
-
-
-
