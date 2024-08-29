@@ -47,7 +47,7 @@ header {
 
 .navitem.ativo {
     color: var(--cor-neutra-1);
-    border-bottom: 3px solid #ffe100;
+    border-bottom: 3px solid #7B2CBF;
 }
 
 .btn-celular {
