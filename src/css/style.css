@@ -1,12 +1,12 @@
 :root{
-    --cor-primaria-1:
-    --cor-primaria-2:
-    --cor-primaria-3:
-    --cor-primaria-4:
-    --cor-primaria-5:
+    --cor-primaria-1:#03045E;
+    --cor-primaria-2:#0077B6;
+    --cor-primaria-3:#00B4D8;
+    --cor-primaria-4:#90E0EF;
+    --cor-primaria-5:#CAF0F8;
 
-    --cor-neutra-1:
-    --cor-neutra-2:
+    --cor-neutra-1:#fff;
+    --cor-neutra-2:#1d1d1d;
 }
 
 
