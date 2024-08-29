@@ -27,6 +27,8 @@ section {
 }
 
 .btn-pedido {
+    text-decoration: none;
+    color: var(--cor-primaria-4);
     border: none;
     display: flex;
     align-items: center;
