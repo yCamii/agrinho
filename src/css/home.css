@@ -23,3 +23,17 @@
 .descricao {
     color: #fff;
 }
+
+
+   #banner {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 70%;
+   }
+
+   #banner img {
+    width: fit-content;
+    height: 70%;
+    margin-bottom: 150px;
+   }
