@@ -28,12 +28,12 @@
    #banner {
     display: flex;
     justify-content: end;
-    align-items: center;
-    width: 60%;
+    
+    width: 50%;
    }
 
    #banner img {
-    width: fit-content;
-    height: 30%;
+    width: 60%;
+    height: 50%;
     margin-bottom: 0px;
    }
