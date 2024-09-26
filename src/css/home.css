@@ -29,11 +29,11 @@
     display: flex;
     justify-content: end;
     align-items: end;
-    width: 0%;
+    width: 60%;
    }
 
    #banner img {
     width: fit-content;
     height: 30%;
-    margin-bottom: 150px;
+    margin-bottom: 0px;
    }
