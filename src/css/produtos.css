@@ -20,7 +20,7 @@
     align-items: center;
     gap: 18px;
     padding: 20px;
-    background-color: var(--cor-neutra-0);
+    background-color: var(--cor-neutra-1);
     border-radius: 20px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -35,7 +35,7 @@
 
 .produto_icone {
     position: absolute;
-    background-color: var(--cor-neutra-1);
+    background-color: var(--cor-primaria-4);
     display: flex;
     align-items: center;
     justify-content: center;
